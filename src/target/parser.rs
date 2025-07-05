@@ -221,6 +221,9 @@ fn parse_envabi(last_component: &str) -> Option<(&str, &str)> {
         "qnx800" => ("nto80", ""),
         "sgx" => ("sgx", ""),
         "threads" => ("threads", ""),
+        "std" => ("std", ""),
+        "kernel" => ("kernel", ""),
+        "init" => ("init", ""),
 
         // ABIs
         "abi64" => ("", "abi64"),
